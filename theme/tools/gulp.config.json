@@ -1,0 +1,11 @@
+{
+  "config": {
+    "path": {
+      "src": "../sources/metronic-back-office",
+      "common_src": "../sources/metronic-back-office"
+    },
+    "dist": [
+      "../../public/templates/metronic-back-office"
+    ]
+  }
+}

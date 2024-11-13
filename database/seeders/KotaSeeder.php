@@ -1,0 +1,158 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Reference\Kota;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class KotaSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        Kota::firstOrCreate(['name' => 'KOTA JAKARTA PUSAT']);
+        Kota::firstOrCreate(['name' => 'KOTA  BANDUNG']);
+        Kota::firstOrCreate(['name' => 'KOTA MEDAN']);
+        Kota::firstOrCreate(['name' => 'KOTA PALEMBANG']);
+        Kota::firstOrCreate(['name' => 'KAB. BADUNG']);
+        Kota::firstOrCreate(['name' => 'KAB. MANGGARAI BARAT']);
+        Kota::firstOrCreate(['name' => 'KOTA KUPANG']);
+        Kota::firstOrCreate(['name' => 'KOTA DENPASAR']);
+        Kota::firstOrCreate(['name' => 'KOTA MATARAM']);
+        Kota::firstOrCreate(['name' => 'KAB. LOMBOK BARAT']);
+        Kota::firstOrCreate(['name' => 'KAB. GIANYAR']);
+        Kota::firstOrCreate(['name' => 'LOMBOK TIMUR']);
+        Kota::firstOrCreate(['name' => 'KOTA CILEGON']);
+        Kota::firstOrCreate(['name' => 'KOTA SERANG']);
+        Kota::firstOrCreate(['name' => 'KAB. PANDEGLANG']);
+        Kota::firstOrCreate(['name' => 'KAB. SERANG']);
+        Kota::firstOrCreate(['name' => 'KAB. LEBAK']);
+        Kota::firstOrCreate(['name' => 'KAB. TANGERANG']);
+        Kota::firstOrCreate(['name' => 'KOTA TANGERANG']);
+        Kota::firstOrCreate(['name' => 'KOTA TANGERANG SELATAN']);
+        Kota::firstOrCreate(['name' => 'KABUPATEN TANGERANG']);
+        Kota::firstOrCreate(['name' => 'KOTA BANDUNG']);
+        Kota::firstOrCreate(['name' => 'KAB. BANDUNG']);
+        Kota::firstOrCreate(['name' => 'KAB. BANDUNG BARAT']);
+        Kota::firstOrCreate(['name' => 'KOTA CIMAHI']);
+        Kota::firstOrCreate(['name' => 'KAB. SUMEDANG']);
+        Kota::firstOrCreate(['name' => 'KOTA CIREBON']);
+        Kota::firstOrCreate(['name' => 'KAB. SUBANG']);
+        Kota::firstOrCreate(['name' => 'KAB. CIREBON']);
+        Kota::firstOrCreate(['name' => 'KAB. INDRAMAYU']);
+        Kota::firstOrCreate(['name' => 'KAB. MAJALENGKA']);
+        Kota::firstOrCreate(['name' => 'KOTA TASIKMALAYA']);
+        Kota::firstOrCreate(['name' => 'KAB. GARUT']);
+        Kota::firstOrCreate(['name' => 'KAB. CIAMIS']);
+        Kota::firstOrCreate(['name' => 'KOTA BANJAR']);
+        Kota::firstOrCreate(['name' => 'KAB. TASIKMALAYA']);
+        Kota::firstOrCreate(['name' => 'KOTA BOGOR']);
+        Kota::firstOrCreate(['name' => 'KOTA SUKABUMI']);
+        Kota::firstOrCreate(['name' => 'KOTA DEPOK']);
+        Kota::firstOrCreate(['name' => 'KAB. CIANJUR']);
+        Kota::firstOrCreate(['name' => 'KAB. SUKABUMI']);
+        Kota::firstOrCreate(['name' => 'KAB. BOGOR']);
+        Kota::firstOrCreate(['name' => 'KOTA KARAWANG']);
+        Kota::firstOrCreate(['name' => 'KAB. KARAWANG']);
+        Kota::firstOrCreate(['name' => 'KAB. BEKASI']);
+        Kota::firstOrCreate(['name' => 'KOTA BEKASI']);
+        Kota::firstOrCreate(['name' => 'KAB. PURWAKARTA']);
+        Kota::firstOrCreate(['name' => 'KOTA JAKARTA TIMUR']);
+        Kota::firstOrCreate(['name' => 'KOTA JAKARTA SELATAN']);
+        Kota::firstOrCreate(['name' => 'KOTA JAKARTA BARAT']);
+        Kota::firstOrCreate(['name' => 'KOTA JAKARTA UTARA']);
+        Kota::firstOrCreate(['name' => 'KAB. PATI']);
+        Kota::firstOrCreate(['name' => 'KOTA SEMARANG']);
+        Kota::firstOrCreate(['name' => 'KAB. JEPARA']);
+        Kota::firstOrCreate(['name' => 'KAB. KARANGANYAR']);
+        Kota::firstOrCreate(['name' => 'KOTA SURAKARTA']);
+        Kota::firstOrCreate(['name' => 'KAB. SLEMAN']);
+        Kota::firstOrCreate(['name' => 'KOTA YOGYAKARTA']);
+        Kota::firstOrCreate(['name' => 'KAB. SUKOHARJO']);
+        Kota::firstOrCreate(['name' => 'KAB. CILACAP']);
+        Kota::firstOrCreate(['name' => 'KOTA MAGELANG']);
+        Kota::firstOrCreate(['name' => 'KAB. BANYUMAS']);
+        Kota::firstOrCreate(['name' => 'KAB. MOJOKERTO']);
+        Kota::firstOrCreate(['name' => 'KOTA GRESIK']);
+        Kota::firstOrCreate(['name' => 'KOTA SURABAYA']);
+        Kota::firstOrCreate(['name' => 'KAB. JEMBER']);
+        Kota::firstOrCreate(['name' => 'KAB. SIDOARJO']);
+        Kota::firstOrCreate(['name' => 'KAB. GRESIK']);
+        Kota::firstOrCreate(['name' => 'KAB. BANGKALAN']);
+        Kota::firstOrCreate(['name' => 'KOTA PASURUAN']);
+        Kota::firstOrCreate(['name' => 'KOTA PROBOLINGGO']);
+        Kota::firstOrCreate(['name' => 'KAB. SUMENEP']);
+        Kota::firstOrCreate(['name' => 'KOTA BLITAR']);
+        Kota::firstOrCreate(['name' => 'KOTA MALANG']);
+        Kota::firstOrCreate(['name' => 'KAB. TULUNGAGUNG']);
+        Kota::firstOrCreate(['name' => 'KOTA KEDIRI']);
+        Kota::firstOrCreate(['name' => 'KOTA MADIUN']);
+        Kota::firstOrCreate(['name' => 'KOTA BALIKPAPAN']);
+        Kota::firstOrCreate(['name' => 'KAB. KUTAI TIMUR']);
+        Kota::firstOrCreate(['name' => 'KOTA SAMARINDA']);
+        Kota::firstOrCreate(['name' => 'KAB. PASIR']);
+        Kota::firstOrCreate(['name' => 'KAB. NUNUKAN']);
+        Kota::firstOrCreate(['name' => 'KAB. PENAJAM PASER UTARA']);
+        Kota::firstOrCreate(['name' => 'KOTA TARAKAN']);
+        Kota::firstOrCreate(['name' => 'KOTA PONTIANAK']);
+        Kota::firstOrCreate(['name' => 'KAB. KUBU RAYA']);
+        Kota::firstOrCreate(['name' => 'KAB. KETAPANG']);
+        Kota::firstOrCreate(['name' => 'KAB. LANDAK']);
+        Kota::firstOrCreate(['name' => 'KOTA SINGKAWANG']);
+        Kota::firstOrCreate(['name' => 'KOTA PALANGKARAYA']);
+        Kota::firstOrCreate(['name' => 'KOTA BANJARMASIN']);
+        Kota::firstOrCreate(['name' => 'KOTA WARINGIN TIMUR']);
+        Kota::firstOrCreate(['name' => 'KOTA BANJARBARU']);
+        Kota::firstOrCreate(['name' => 'KAB. BARITO UTARA']);
+        Kota::firstOrCreate(['name' => 'KAB. KAPUAS']);
+        Kota::firstOrCreate(['name' => 'KOTA BANJAR BARU']);
+        Kota::firstOrCreate(['name' => 'KOTA PALANGKA RAYA']);
+        Kota::firstOrCreate(['name' => 'KOTA MAKASSAR']);
+        Kota::firstOrCreate(['name' => 'KOTA PARE PARE']);
+        Kota::firstOrCreate(['name' => 'KAB. MAROS']);
+        Kota::firstOrCreate(['name' => 'KAB. GOWA']);
+        Kota::firstOrCreate(['name' => 'KAB. BANTAENG']);
+        Kota::firstOrCreate(['name' => 'KAB. BONE']);
+        Kota::firstOrCreate(['name' => 'KOTA KENDARI']);
+        Kota::firstOrCreate(['name' => 'KAB. BULUKUMBA']);
+        Kota::firstOrCreate(['name' => 'KAB. MAMUJU']);
+        Kota::firstOrCreate(['name' => 'KOTA PALOPO']);
+        Kota::firstOrCreate(['name' => 'KAB. PANGKAJENE DAN KEPULAUAN']);
+        Kota::firstOrCreate(['name' => 'KAB. PINRANG']);
+        Kota::firstOrCreate(['name' => 'KOTA AMBON']);
+        Kota::firstOrCreate(['name' => 'KAB. POLEWANI']);
+        Kota::firstOrCreate(['name' => 'KOTA GORONTALO']);
+        Kota::firstOrCreate(['name' => 'KOTA MANADO']);
+        Kota::firstOrCreate(['name' => 'KOTA KOTAMOBAGU']);
+        Kota::firstOrCreate(['name' => 'KAB. MINAHASA UTARA']);
+        Kota::firstOrCreate(['name' => 'KOTA TERNATE']);
+        Kota::firstOrCreate(['name' => 'KOTA BITUNG']);
+        Kota::firstOrCreate(['name' => 'KOTA PALU']);
+        Kota::firstOrCreate(['name' => 'KAB. MANOKWARI']);
+        Kota::firstOrCreate(['name' => 'KAB. MINAHASA']);
+        Kota::firstOrCreate(['name' => 'KOTA JAYAPURA']);
+        Kota::firstOrCreate(['name' => 'KOTA BANDA ACEH']);
+        Kota::firstOrCreate(['name' => 'KOTA LANGSA']);
+        Kota::firstOrCreate(['name' => 'KOTA PEMATANG SIANTAR']);
+        Kota::firstOrCreate(['name' => 'KAB. LABUHAN BATU']);
+        Kota::firstOrCreate(['name' => 'KAB. DELI SERDANG']);
+        Kota::firstOrCreate(['name' => 'KAB. ACEH BARAT']);
+        Kota::firstOrCreate(['name' => 'KAB. ACEH SELATAN']);
+        Kota::firstOrCreate(['name' => 'KOTA PADANG']);
+        Kota::firstOrCreate(['name' => 'KOTA PEKANBARU']);
+        Kota::firstOrCreate(['name' => 'KOTA PAYAKUMBUH']);
+        Kota::firstOrCreate(['name' => 'KOTA JAMBI']);
+        Kota::firstOrCreate(['name' => 'KOTA LUBUKLINGGAU']);
+        Kota::firstOrCreate(['name' => 'KOTA LUBUK LINGGAU']);
+        Kota::firstOrCreate(['name' => 'KOTA BANDAR LAMPUNG']);
+        Kota::firstOrCreate(['name' => 'KOTA BENGKULU']);
+        Kota::firstOrCreate(['name' => 'KOTA BATAM']);
+        Kota::firstOrCreate(['name' => 'KOTA TANJUNGPINANG']);
+        Kota::firstOrCreate(['name' => 'KAB. KARIMUN']);
+        Kota::firstOrCreate(['name' => 'KAB. BINTAN']);
+
+    }
+}
