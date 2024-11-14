@@ -35,8 +35,8 @@ on:
       - '"main"'
 
 env:
-  PROJECT_ID: 'my-project' # TODO: update to your Google Cloud project ID
-  REGION: 'us-central1' # TODO: update to your region
+  PROJECT_ID: 'dev-kfdiagnostika' # TODO: update to your Google Cloud project ID
+  REGION: 'asia-southeast2' # TODO: update to your region
   SERVICE: 'my-service' # TODO: update to your service name
 
 jobs:
