@@ -32,12 +32,7 @@ name: 'Deploy to Cloud Run from Source'
 on:
   push:
     branches:
-      - '"main"'
-
-env:
-  PROJECT_ID: 'dev-kfdiagnostika' # TODO: update to your Google Cloud project ID
-  REGION: 'asia-southeast2' # TODO: update to your region
-  SERVICE: 'my-service' # TODO: update to your service name
+      - 'main'
 
 jobs:
   deploy:
@@ -68,8 +63,12 @@ jobs:
           region: '${{ env.REGION }}'
           # NOTE: If using a different source folder, update the image name below:
           source: './'
+        env:
+            PROJECT_ID: 'dev-kfdiagnostika' # TODO: update to your Google Cloud project ID
+            REGION: 'asia-southeast2' # TODO: update to your region
+            SERVICE: 'my-service' # TODO: update to your service name
 
       # If required, use the Cloud Run URL output in later steps
       - name: 'Show output'
-        run: |-
+        run: |
           echo ${{ steps.deploy.outputs.url }}
